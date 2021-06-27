@@ -1,8 +1,6 @@
 import { shallow } from "enzyme";
 import Congrats from "./Congrats";
 
-
-
 test("congrats componet renders without error",() => {
     const wrapper = shallow(<Congrats />);
     const divElement = wrapper.find('div.congrats-wrapper');
